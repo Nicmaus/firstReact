@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 3em;
+  border-radius: 2.5em;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+.oldies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+}
+
+.pic {
+  width: 35rem;
+  height: 18rem;
+  margin: 2em;
+  border-radius: 2.5em;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+button {
+  border: none;
+  border-radius: 2.5em;
+  height: 30em;
+  width: 10em;
+  background-color: lightgray;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  margin-left: 7em;
+}
+
+p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 1em auto;
+  font-size: 2em;
+  font-style: italic;
+  color: darkblue;
+  font-weight: bold;
+}
